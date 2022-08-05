@@ -6,8 +6,8 @@ const Torus: NextPage = () => {
    const torus = useRef(null);
 
    useFrame(() => {
-      torus.current.rotation.x += 0.01;
-      torus.current.rotation.y += 0.015;
+      torus.current.rotation.x += 0.008;
+      torus.current.rotation.y += 0.016;
    });
 
    return (
